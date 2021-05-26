@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgba(139, 119, 93, 0.678), rgba(93, 139, 131, 0.801) );
+    padding: 1rem;
+    display: flex;
+}
+
+.data {
+    width: 30rem;
+    height: 50rem;
+    /* margin: auto; */
+    margin: 2rem auto;
+}
+
+.data form{
+    /* width: 10rem; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data form > * {
+    margin-top: 1rem;
+    width: 20rem;
+  
+}
+
+.data form > input,
+.data form > button {
+    height: 3rem;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: .3rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.users{
+    width: 30rem;
+    margin: 2rem auto;
+    
+}
+
+.users h2{
+    text-align: center;
+}
+
+.user-table
+{
+    
+    border-collapse: collapse;
+    /* border: 1px solid rgba(0, 247, 255, 0.822); */
+    /* width: 20rem; */
+    /* margin: 1.3rem 0; */
+    min-width: 30rem;
+    
+}
+
+/* .user-table thead,
+.user-table tbody{
+    border-radius: 1rem;
+} */
+
+.user-table thead tr {
+    width: 2rem;
+    text-align: left;
+    /* padding: 1rem; */
+    background-color: rgba(165, 122, 42, 0.883);
+    /* font-weight: bold; */
+    font-size: 1.3rem;
+    color: #fff;
+    
+}
+
+.user-table th,
+.user-table td {
+    padding: 1rem .5rem;
+    /* text-align: center; */
+}
+
+
+.user-table td {
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+
+.user-table tr{
+    background: rgba(68, 83, 93, 0.897);
+    
+}
+
+
+
+
